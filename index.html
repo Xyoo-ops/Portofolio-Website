@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Revan Wima Saputra – Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=Outfit:wght@300;400;500&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bgfx" aria-hidden="true"><i class="orb o1"></i><i class="orb o2"></i><div class="gridhi"></div><div class="spot"></div><canvas id="net"></canvas><div class="grain"></div><div class="vig"></div></div>
+<div id="intro"><div class="ic"><span>&lt;/&gt;</span><span>◉</span><span>◍</span></div><div><h2 class="d">Welcome to my</h2><h2 class="d" style="margin-top:36px">Portfolio Website</h2></div></div>
+
+<nav><span class="l m">Front end.dev</span><div><a href="#home" class="on">Home</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></div></nav>
+
+<section id="home">
+<div><p class="av m">✦ Portofolio Web</p><h1 class="d">Frontend<span>Developer</span></h1>
+<p class="ty m" id="ty"></p>
+<p class="lead">Menciptakan website modern dengan tampilan clean, responsif, dan elegan. Mengubah ide dan desain menjadi pengalaman digital yang menarik dan mudah digunakan.</p>
+<div class="tags"><span>Typescript</span><span>Tailwind</span><span>CSS</span><span>JavaScript</span><span>Html</span></div>
+<p class="hint m">↓ explore my work below<br>↗ open to full-time &amp; freelance opportunities</p></div>
+<div class="lan"><div class="pend" id="pend"><div class="strap"><span>3D CARD</span><span>3D CARD</span></div><div class="card" id="idcard"><div class="ph"><span class="sil"></span><img alt="Foto profil" src="foto-kartu.jpg" onerror="this.remove()"></div></div></div></div>
+</section>
+
+<section id="about">
+<div><p class="al m">ABOUT ME</p><h1 class="d">Revan<br>Wima<br>Saputra</h1>
+<p class="lead" style="max-width:480px">Alumni SMAN 5 Taruna Brawijaya yang minat dalam bidang IT, khususnya dalam bidang Frontend Development. Saya memiliki pengalaman dalam mengembangkan website modern dengan menggunakan teknologi terbaru seperti React.js, TypeScript, dan Tailwind CSS.
+
+</p>
+<div class="quote">“Turning ideas into clean, modern, and meaningful digital experiences.”</div><br>
+<a class="btn w" href="#portfolio" style="text-decoration:none">↗ View Projects</a></div>
+<div class="circ"><div><span class="sil"></span><img src="foto-kartu.jpg" alt="Foto Revan Wima Saputra" onerror="this.remove()"></div></div>
+<div class="stats"><div class="st" onclick="tab(0)"><span>&lt;&gt;</span><b>1</b><small>PROJECTS</small><i>↗</i></div><div class="st" onclick="tab(0)"><span>◍</span><b>1</b><small>COMPLETED WORKS</small><i>↗</i></div></div>
+</section>
+
+<section id="portfolio">
+<h2 class="d">Portfolio Showcase</h2><p class="sub">Explore my journey through projects and technical expertise.</p>
+<div class="tabs" id="tabs"><button class="on">Projects</button><button>Tech Stack</button></div>
+<div id="view"></div>
+</section>
+
+<section id="contact">
+<h2 class="big d" style="text-align:center;font-size:40px">Contact</h2><p class="sub">Have something in mind? Send a message and let’s connect.</p>
+<div class="two">
+<div class="pan"><h3>Hubungi Saya</h3><p class="s">Feel free to reach out if you want to collaborate, discuss ideas, or simply say hello.</p>
+<input placeholder="Your Name"><input placeholder="Your Email" type="email"><textarea placeholder="Your Message"></textarea>
+<button class="btn bg" onclick="alert('Terkirim (demo). Sambungkan ke backend/Formspree untuk mengirim sungguhan.')">➤ Send Message</button>
+<p class="sub" style="font-size:12px;margin:22px 0 10px;text-align:left">Connect With Me</p>
+<div class="soc"><a href="https://www.linkedin.com/in/revan-wima-599080400" target="_blank" rel="noopener">in &nbsp;LinkedIn<small>@Revan wima</small></a><a href="https://www.instagram.com/vann.kyo/" target="_blank" rel="noopener">Instagram<small>@Vann.kyo</small></a><a href="https://www.tiktok.com/@vanoo.xyo" target="_blank" rel="noopener">Tiktok<small>@Vanoo.xyo</small></a></div></div>
+<div class="pan"><h3>Comments</h3><p class="s">Leave your thoughts here</p>
+<input id="cn" placeholder="Your Name"><textarea id="cc" placeholder="Your Comment"></textarea>
+<button class="btn bg" onclick="post()">Post Comment</button>
+<div id="cl" style="margin-top:20px"></div></div></div>
+</section>
+
+<div id="detail"><div class="dw" id="dw"></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
